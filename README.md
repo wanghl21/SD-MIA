@@ -21,7 +21,7 @@ Beijing University of Posts and Telecommunications · Tsinghua University
 SD-MIA is a **fully black-box** membership inference attack for auditing whether image-text pairs were used to pre-train text-to-image generation models.
 
 <p align="center">
-  <img src="img/method.pdf" width="92%" alt="SD-MIA method">
+  <img src="img/method.png" width="92%" alt="SD-MIA method">
 </p>
 
 ## Highlights
@@ -33,14 +33,20 @@ SD-MIA is a **fully black-box** membership inference attack for auditing whether
 
 ## Results
 
+SD-MIA consistently outperforms prior membership inference attacks on pre-training data, including black-box reconstruction baselines and methods with stronger model access.
+
 <p align="center">
   <img src="img/main_results.png" width="92%" alt="Main results">
 </p>
 
+<p align="center"><b>Main results.</b> Instance-level MIA performance on Stable Diffusion v1.2/v1.4/v1.5/v3.5 under balanced and imbalanced settings.</p>
+
 <p align="center">
-  <img src="img/set_level.pdf" width="46%" alt="Set-level results">
-  <img src="img/closed_source.pdf" width="46%" alt="Closed-source model results">
+  <img src="img/set_level.png" width="46%" alt="Set-level results">
+  <img src="img/closed_source.png" width="46%" alt="Closed-source model results">
 </p>
+
+<p align="center">SD-MIA scales to set-level auditing and remains effective on closed-source image-generation APIs.</p>
 
 ## Environment
 
